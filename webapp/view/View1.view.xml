@@ -1,0 +1,19 @@
+<mvc:View controllerName="Zapp.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="Your Quick Start application is ready!">
+				<content>
+					<VBox direction="Column" id="vbox0" justifyContent="Center" width="100%">
+						<items>
+							<Label id="label3" text="Try out the Layout Editor and then click Run." textAlign="Center" width="100%"/>
+							<HBox>
+							<Button id='but1' text="To View2" press="toView2"></Button>
+							<Button id='but2' text="To View2 with Params" press="toView2Param"></Button>
+							</HBox>
+						</items>
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
