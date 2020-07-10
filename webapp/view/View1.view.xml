@@ -1,7 +1,7 @@
 <mvc:View controllerName="Zapp.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
 	<App id="idAppControl">
 		<pages>
-			<Page title="Your Quick Start application is ready!">
+			<Page title="Routing and Navigation application!">
 				<content>
 					<VBox direction="Column" id="vbox0" justifyContent="Center" width="100%">
 						<items>
